@@ -3,5 +3,4 @@ create floder
 
 set username and email with git to local   
     git config --global user.name "your name (you github username)"
-
     git config --global user.email "your email(your github email)"
