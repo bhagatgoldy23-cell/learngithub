@@ -5,29 +5,44 @@
     <meta name="viewport" content="width=<ta>, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+
+    .first tr td {
+        background-color: red;
+    }
+</style>
 <body>
-    <table style="">
+    <th> <b>This is my table</b></th>
+    <table border>
+        <col span="2" style="background-color: blue" />
         <tr>
-            <td>1</td>
+            <td>A</td>
+            <td>B</td>
+            <td>C</td>
+            <td>D</td>
+            <td>E</td>
+        </tr>
+        <tr>
+            <td rowspan="2">1</td>
             <td>2</td>
             <td>3</td>
             <td>4</td>
             <td>5</td>
         </tr>
         <tr>
-            <td>6</td>
+            
             <td>7</td>
             <td>8</td>
-            <td>9</td>
-            <td>10</td>
+            <td style="background-color: red" rowspan="2" colspan="2" ></td>
+            
         </tr>
         
         <tr>
             <td>11</td>
             <td>12</td>
             <td>13</td>
-            <td>14</td>
-            <td>15</td>
+        
+            
         </tr>
     </table>
     
